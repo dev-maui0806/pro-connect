@@ -13,7 +13,7 @@ export default function HeroSection() {
         <img
           src="https://api.builder.io/api/v1/image/assets/TEMP/6acfc660e052c5cc941c26ceb0aa6a3672d6133c?width=432"
           alt=""
-          className="absolute top-[1px] left-1/2 w-[160px] md:w-[200px] lg:w-[216px] h-auto pointer-events-none opacity-80"
+          className="absolute top-[100px] left-1/2 w-[160px] md:w-[200px] lg:w-[216px] h-auto pointer-events-none opacity-80"
           aria-hidden="true"
         />
          <img

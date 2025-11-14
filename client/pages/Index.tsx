@@ -19,7 +19,7 @@ export default function Index() {
           src="/images/pyramid.png?width=432"
           alt="ddd"
           style={{zIndex:10}}
-          className="absolute top-[4%] sm:top-[5%] lg:top-[6.4%] left-1/2 -translate-x-1/2 w-[180px] md:w-[232px] lg:w-[262px] h-auto pointer-events-none opacity-80"
+          className="absolute top-[4%] sm:top-[5%] lg:top-[6.4%] xl-[6%] left-1/2 -translate-x-1/2 w-[180px] md:w-[232px] lg:w-[262px] h-auto pointer-events-none opacity-80"
           aria-hidden="true"
         />
       <img
