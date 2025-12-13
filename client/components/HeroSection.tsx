@@ -1,4 +1,4 @@
-import CountdownTimer from "@/components/CountdownTimer";
+import PCTPresale from "./PCTPresale";
 
 export default function HeroSection() {
     return(
@@ -125,8 +125,9 @@ export default function HeroSection() {
                 </p>
               </div>
 
-              {/* Countdown Timer */}
-              <CountdownTimer />
+              {/* PCTsale field */}
+              <PCTPresale />
+    
             </div>
 
           </div>
