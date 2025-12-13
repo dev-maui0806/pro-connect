@@ -108,28 +108,8 @@ export default function HeroSection() {
               </div>
             </div>
 
-            {/* Right Column - Countdown Card */}
-            <div
-              className="flex flex-col justify-center xl:items-start sm:items-center gap-8 p-6 md:p-10 rounded-2xl border border-black/8 backdrop-blur-[6px] w-full xl:w-auto xl:max-w-[520px] flex-shrink-0"
-              style={{
-                background: 'rgba(255, 255, 255, 0.50)',
-                boxShadow: '0 0 16px 0 rgba(36, 38, 43, 0.08)',
-              }}
-            >
-              {/* Card Header */}
-              <div className="flex flex-col items-start gap-4 self-stretch">
-                <h2 className="text-black font-medium text-xl leading-normal tracking-[-0.4px]">
-                  Presale Countdown
-                </h2>
-                <p className="self-stretch text-[#010D3E] text-base font-normal leading-[23px] tracking-[-0.16px]">
-                  The ProConnect (PCT) Token presale officially launches soon. Join early to secure your spot in the world's first crypto-powered work ecosystem.
-                </p>
-              </div>
-
               {/* PCTsale field */}
               <PCTPresale />
-    
-            </div>
 
           </div>
         </div>
