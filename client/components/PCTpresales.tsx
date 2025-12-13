@@ -19,6 +19,10 @@ export default function PCTPresale() {
     { value: "BTC", label: "BTC", icon: BitcoinIcon },
   ];
 
+  const pctcurrencies = [
+    { value: "BTC", label: "PCT", icon: BitcoinIcon },
+  ]
+  
   const getCurrencyIcon = (currency: string) => {
     const currencyData = currencies.find((c) => c.value === currency);
     return currencyData?.icon || EthIcon;
@@ -155,7 +159,7 @@ export default function PCTPresale() {
             })()}
           </SelectTrigger>
           <SelectContent>
-            {currencies.map((currency) => {
+            {pctcurrencies.map((currency) => {
               const IconComponent = currency.icon;
               return (
                 <SelectItem key={currency.value} value={currency.value} className="flex items-center gap-2 pl-2 [&>span:first-child]:hidden">
