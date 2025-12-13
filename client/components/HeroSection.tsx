@@ -94,6 +94,7 @@ export default function HeroSection() {
                     document.body.appendChild(link);
                     link.click();
                     document.body.removeChild(link);
+                    window.open('/assets/Whitepaper ProConnect .pdf', '_blank');
                   }}
                   className="flex px-[15px] py-[10px] justify-center items-center gap-1 rounded-[10px] bg-black text-white text-base md:text-xl font-medium leading-normal tracking-[-0.4px] hover:bg-black/90 transition-colors"
                 >
