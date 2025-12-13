@@ -1,4 +1,5 @@
-import PCTPresale from "./PCTPresale";
+import PCTPresale from "./PCTpresales";
+import React from "react";
 
 export default function HeroSection() {
     return(
